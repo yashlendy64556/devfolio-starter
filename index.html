@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="A clean, responsive developer portfolio starter." />
+  <title>Yuvi — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">{"</>"}</span> yuvi.dev</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-cta" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE TO BUILD</p>
+        <h1>Turning ideas into<br /><span>useful software.</span></h1>
+        <p class="hero-text">I'm Yuvi, a developer interested in automation, cloud technology, and building simple tools that solve real problems.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects <span>↘</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>01</strong><span>Build</span></div>
+          <div><strong>02</strong><span>Learn</span></div>
+          <div><strong>03</strong><span>Improve</span></div>
+        </div>
+      </div>
+      <div class="terminal-card" aria-label="Decorative code terminal">
+        <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span>•••</span></div>
+        <div class="terminal-body">
+          <p><span class="line-no">01</span> <span class="purple">const</span> developer = {</p>
+          <p><span class="line-no">02</span> &nbsp; name: <span class="green">"Yuvi"</span>,</p>
+          <p><span class="line-no">03</span> &nbsp; focus: [</p>
+          <p><span class="line-no">04</span> &nbsp;&nbsp; <span class="green">"Cloud"</span>,</p>
+          <p><span class="line-no">05</span> &nbsp;&nbsp; <span class="green">"Automation"</span>,</p>
+          <p><span class="line-no">06</span> &nbsp;&nbsp; <span class="green">"Web Tools"</span></p>
+          <p><span class="line-no">07</span> &nbsp; ],</p>
+          <p><span class="line-no">08</span> &nbsp; mindset: <span class="green">"Keep building"</span></p>
+          <p><span class="line-no">09</span> };</p>
+          <p class="terminal-output"><span class="line-no">10</span> <span class="muted">// ready to create something useful</span><span class="cursor">_</span></p>
+        </div>
+        <div class="terminal-footer"><span>● All systems curious</span><span>UTF-8</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Curiosity, meet code.</h2></div>
+      <p class="about-copy">I enjoy learning how software works, exploring cloud infrastructure, and turning repetitive tasks into reliable workflows. This portfolio is a starting point—replace the sample text and projects with your own work as you grow.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><p class="eyebrow">02 / SELECTED WORK</p><h2>Small projects. Real progress.</h2></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">⌘</div><p class="project-type">WEB / PRODUCTIVITY</p>
+          <h3>FocusFlow</h3><p>A lightweight focus timer with session tracking and a calm interface.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#contact" class="project-link">Project details <span>↗</span></a>
+        </article>
+        <article class="project-card featured">
+          <div class="project-icon">⌁</div><p class="project-type">CLOUD / LEARNING</p>
+          <h3>CloudNotes</h3><p>A clean checklist for documenting deployments, commands, and lessons learned.</p>
+          <div class="tags"><span>Cloud</span><span>Markdown</span><span>Docs</span></div>
+          <a href="#contact" class="project-link">Project details <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">⟲</div><p class="project-type">AUTOMATION</p>
+          <h3>TaskPilot</h3><p>A simple task dashboard concept for organizing repeatable workflows.</p>
+          <div class="tags"><span>JavaScript</span><span>UI</span><span>Automation</span></div>
+          <a href="#contact" class="project-link">Project details <span>↗</span></a>
+        </article>
+      </div>
+      <p class="hint">Note: These are portfolio demo concepts. Build them out or replace them with projects you have actually completed.</p>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / TOOLKIT</p><h2>Always learning.</h2></div>
+      <div class="skill-list"><span>HTML & CSS</span><span>JavaScript</span><span>Git & GitHub</span><span>Linux</span><span>Cloud fundamentals</span><span>Automation</span></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br /><span>Let's make it real.</span></h2>
+      <p>Replace the links below with your real GitHub and contact details.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        <a class="button secondary" href="mailto:hello@example.com">Email me ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">{"</>"}</span> yuvi.dev</a><span>Designed to keep evolving · <span id="year"></span></span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
